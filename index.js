@@ -6,3 +6,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoiY2hlcnlsaHVnaGV5IiwiYSI6mNqd2p1Nm1meTAxd2s0MHBidWQwODZ0ZTEifQ.Dj3w9VPOJHHXz-3VM4jLvA'
 }).addTo(mymap);
+
+L.marker([51.5, -0.09]).addTo(map)
+		.bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+		.openPopup();
