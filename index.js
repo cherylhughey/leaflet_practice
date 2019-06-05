@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+var mymap = L.map('mapid').setView([38.42189, -90.4647247], 13);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -7,6 +7,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoiY2hlcnlsaHVnaGV5IiwiYSI6mNqd2p1Nm1meTAxd2s0MHBidWQwODZ0ZTEifQ.Dj3w9VPOJHHXz-3VM4jLvA'
 }).addTo(mymap);
 
-L.marker([51.5, -0.09]).addTo(map)
-		.bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+L.marker([38.42189, -90.4647247]).addTo(map)
+		.bindPopup('St. Louis County Library.<br> Fenton, MO.')
 		.openPopup();
