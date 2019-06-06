@@ -4,11 +4,6 @@ body {
   border: 20px solid rgba(0,0,0,0.5);
 }
 
-header, footer {
-  background-color: blue;
-  color: white;
-}
-
 #mapid { 
   height: 280px; 
 }
