@@ -1,12 +1,12 @@
 #mapid { 
-  width: 580px;
+  width: 780px;
   height: 580px; 
 }
 
 
 body {
   font-size: 20px;
-  border: 60px solid rgba(0,0,128,1);
+  border: 30px solid rgba(0,0,128,1);
 }
 
 
