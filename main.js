@@ -8,4 +8,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 
 L.marker([38.5470003, -90.5470048]).addTo(mymap)
+        .bindPopup('Lone Wolf Trail.<br> Awesome view!.')
+		.openPopup();
 
