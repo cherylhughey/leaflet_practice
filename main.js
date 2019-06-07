@@ -7,4 +7,5 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoiY2hlcnlsaHVnaGV5IiwiYSI6ImNqd2p3ZzM5ZTBnNmY0NXBjeXpzb3o5Y3EifQ.XG1GzUd1hUeWO6MzqHMRhw'
 }).addTo(mymap);
 
-L.marker([38.5470003, -90.5470048]).addTo(map);
+L.marker([38.5470003, -90.5470048]).addTo(map)
+
