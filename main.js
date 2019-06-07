@@ -8,5 +8,3 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 
 L.marker([38.5505228, -90.5405763]).addTo(map);
-		.bindPopup('St. Louis County Library.<br> Fenton, MO.')
-		.openPopup();
