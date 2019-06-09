@@ -11,7 +11,7 @@ var circle = L.circle([38.54971, -90.54021], {
     color: 'green',
     fillColor: 'ade6ae',
     fillOpacity: 0.15,
-    radius: 430
+    radius: 830
 }).addTo(mymap);
 
 L.marker([38.54971, -90.54021]).addTo(mymap)
