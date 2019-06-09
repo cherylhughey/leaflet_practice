@@ -15,12 +15,16 @@ var circle = L.circle([38.54971, -90.54021], {
 }).addTo(mymap);
 
 L.marker([38.54971, -90.54021]).addTo(mymap)
-        .bindPopup('Lone Wolf Trail.<br> Trail info here.')
+        .bindPopup('Lone Wolf Trail.<br>Park & hike here.')
 		.openPopup();
 
 L.marker([38.54986, -90.53957]).addTo(mymap)
         .bindPopup('Riverscene Trail.<br> Start here.')
 		.openPopup();
+
+    L.marker([38.53805, -90.55936]).addTo(mymap)
+            .bindPopup('Castlewood Loop Trail.<br> Trailhead Spur.')
+    		.openPopup();
 
 /* LeafletJS License on GitHub: https://github.com/Leaflet/Leaflet/blob/master/LICENSE
 Longitude, latitude and info found at https://dnr.mo.gov/trails/fullMap.action?xmin=-10088812.28&ymin=4653925.52&xmax=-10077050.53&ymax=4660155.14 */
