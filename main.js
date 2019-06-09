@@ -9,9 +9,9 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 var circle = L.circle([38.54971, -90.54021], {
     color: 'green',
-    fillColor: '#f03',
+    fillColor: '#98FB98',
     fillOpacity: 0.5,
-    radius: 500
+    radius: 300
 }).addTo(mymap);
 
 L.marker([38.54971, -90.54021]).addTo(mymap)
