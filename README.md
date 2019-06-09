@@ -1,4 +1,4 @@
-# :seedling: Leaflet Practice
+# :seedling: Leaflet Practice :leaves:
 
 This is a sandbox for paying with LeafletJS with a little Boostrap thrown in. Feel free to contribute or share your suggestions.
 
